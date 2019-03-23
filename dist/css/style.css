@@ -5,10 +5,16 @@
   margin: 0;
   border: 0; }
 
+html, body {
+  height: 100%; }
+
 body {
-  font-size: 0.9em;
+  font-size: 16px;
+  min-width: 350px;
+  position: relative;
   font-family: Arial, sans-serif;
-  line-height: 1.5; }
+  line-height: 1.75;
+  overflow-x: hidden; }
 
 .header {
   display: grid;
@@ -35,3 +41,10 @@ body {
     text-align: center;
     padding: 60px 10px;
     font-size: 50px; }
+
+/* ---------------  Desktop First  -------------- */
+/* Large Devices, Wide Screen */
+/* Medium Devices, Desktops */
+/* Small Devices, Tablets */
+/* Extra Small Devices,Phones */
+/* Custom, iPhone Retina */
