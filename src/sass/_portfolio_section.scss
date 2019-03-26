@@ -1,0 +1,77 @@
+.portfolio_section {
+	padding: 10px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 10px;
+	.portfolio_item {
+		display: grid;
+		min-height: 32vh;
+		background-size: cover;
+		background-position: center;
+		text-align: center;
+		align-content: center;
+		padding: $gutter;
+		font-size: 20px;
+		font-weight: bold;
+		color: #fff;
+		position: relative;
+		transition: color .5s ease;
+		cursor: pointer;
+		&:nth-child(1) {
+			grid-column: 1 / 3; 
+		}
+		&:hover {
+			&::before {
+				opacity: .85;
+			}
+		}
+		&:nth-child(5) {
+			grid-column: 2 / 4; 
+		}
+		&:nth-child(6) {
+			grid-column: 4;
+			grid-row: 2 / 4; 
+		}		
+		&::before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background-color: $mainColor;
+			opacity: .45;
+			transition: opacity .5s ease;
+		}
+		>* {
+			z-index: 1;
+		}
+	}
+	.office_1 {
+		background-image: url(../../images/1.jpg);
+	}
+	.office_2 {
+		background-image: url(../../images/2.jpg);
+	}
+	.office_3 {
+		background-image: url(../../images/3.jpg);
+	}
+	.office_4 {
+		background-image: url(../../images/4.jpg);
+	}
+	.office_5 {
+		background-image: url(../../images/5.jpg);
+	}
+	.office_6 {
+		background-image: url(../../images/6.jpg);
+	}
+	.office_7 {
+		background-image: url(../../images/7.jpg);
+	}
+	.office_8 {
+		background-image: url(../../images/8.jpg);
+	}
+	.office_9 {
+		background-image: url(../../images/9.jpg);
+	}
+}

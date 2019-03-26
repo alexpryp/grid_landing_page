@@ -72,6 +72,68 @@ body {
       .header .header_content .header_buttons .button-right {
         justify-self: start; }
 
+.portfolio_section {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px; }
+  .portfolio_section .portfolio_item {
+    display: grid;
+    min-height: 32vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    position: relative;
+    -webkit-transition: color .5s ease;
+    transition: color .5s ease;
+    cursor: pointer; }
+    .portfolio_section .portfolio_item:nth-child(1) {
+      grid-column: 1 / 3; }
+    .portfolio_section .portfolio_item:hover::before {
+      opacity: .85; }
+    .portfolio_section .portfolio_item:nth-child(5) {
+      grid-column: 2 / 4; }
+    .portfolio_section .portfolio_item:nth-child(6) {
+      grid-column: 4;
+      grid-row: 2 / 4; }
+    .portfolio_section .portfolio_item::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #323232;
+      opacity: .45;
+      -webkit-transition: opacity .5s ease;
+      transition: opacity .5s ease; }
+    .portfolio_section .portfolio_item > * {
+      z-index: 1; }
+  .portfolio_section .office_1 {
+    background-image: url(../../images/1.jpg); }
+  .portfolio_section .office_2 {
+    background-image: url(../../images/2.jpg); }
+  .portfolio_section .office_3 {
+    background-image: url(../../images/3.jpg); }
+  .portfolio_section .office_4 {
+    background-image: url(../../images/4.jpg); }
+  .portfolio_section .office_5 {
+    background-image: url(../../images/5.jpg); }
+  .portfolio_section .office_6 {
+    background-image: url(../../images/6.jpg); }
+  .portfolio_section .office_7 {
+    background-image: url(../../images/7.jpg); }
+  .portfolio_section .office_8 {
+    background-image: url(../../images/8.jpg); }
+  .portfolio_section .office_9 {
+    background-image: url(../../images/9.jpg); }
+
 /* ---------------  Desktop First  -------------- */
 /* Large Devices, Wide Screen */
 /* Medium Devices, Desktops */
