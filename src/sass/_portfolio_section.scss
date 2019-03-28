@@ -74,4 +74,10 @@
 	.office_9 {
 		background-image: url(../../images/9.jpg);
 	}
+	.buttoncase {
+		display: grid;
+		grid-column: 1 / 5;
+		justify-self: center;
+		padding: $gutter;
+	}
 }

@@ -20,3 +20,40 @@ body {
 	line-height: 1.75;
 	overflow-x: hidden;
 }
+.button {
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 3.5;
+	color: #fff;
+	font-weight: bold;
+	height: 60px;
+	width: 200px;
+	background-color: $accentColor;
+	border-radius: 2px;
+	border-bottom: 5px solid #175D2A;
+	&:link, &:visited, &:active {
+		background-color: $accentColor;
+		border-bottom: 5px solid #175D2A;
+	}
+	&:hover {
+		background-color: #175D2A;
+		border-bottom: 5px solid #005115;
+	}
+}
+.container {
+	display: grid;
+	max-width: 1200px;
+	margin: auto;
+	padding: 0 $gutter;
+}
+.landing-section {
+	padding: 80px 0;
+	h2 {
+		font-size: 34px;
+		font-weight: 800;
+		color: $mainColor;
+		line-height: 1.2;
+	}
+}
