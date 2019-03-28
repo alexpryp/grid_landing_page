@@ -50,6 +50,11 @@ body {
     color: #323232;
     line-height: 1.2; }
 
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto; }
+
 .header {
   display: grid;
   background-image: url(../../images/header_background.jpg);
@@ -154,6 +159,21 @@ body {
     grid-column: 1 / 5;
     justify-self: center;
     padding: 10px; }
+
+.newOpport-section .container {
+  grid-template-columns: 1fr 1fr; }
+
+.ready-left {
+  border-right: 1px solid #dadada;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: 60px; }
+  .ready-left h2 {
+    margin-top: 0;
+    margin-bottom: 40px; }
+
+.ready-right {
+  padding-left: 40px; }
 
 /* ---------------  Desktop First  -------------- */
 /* Large Devices, Wide Screen */
