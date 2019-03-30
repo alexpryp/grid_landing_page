@@ -1,0 +1,15 @@
+.formsection {
+	padding: 30px 0;
+	background-color: $mainColor;
+	.form {
+		display: grid;
+		grid-gap: $gutter;
+		grid-template-columns: repeat(4, 1fr);
+		.button {
+			line-height: 2.1;
+			height: 45px;
+			padding: 5px;
+			width: 100%;
+		}
+	}
+}
