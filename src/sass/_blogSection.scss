@@ -24,7 +24,7 @@
 		display: grid;
 		background-color: #f7f7f7;
 		text-decoration: none;
-		grid-template-rows: 1fr 1fr;
+		grid-template-rows: auto 1fr;
 		transition: background-color .25s ease;
 		overflow: hidden;
 		color: #000;

@@ -221,7 +221,7 @@ input, textarea {
     display: grid;
     background-color: #f7f7f7;
     text-decoration: none;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto 1fr;
     -webkit-transition: background-color .25s ease;
     transition: background-color .25s ease;
     overflow: hidden;
@@ -266,6 +266,24 @@ input, textarea {
     background-image: url(../../images/blog_5.jpg); }
   .blog-home .blog_6 {
     background-image: url(../../images/blog_6.jpg); }
+
+.main-footer {
+  padding: 60px 0;
+  background-color: #323232;
+  text-align: center;
+  color: #999; }
+
+.footer-logo {
+  font-size: 22px;
+  line-height: 1.16; }
+  .footer-logo span {
+    display: block;
+    color: #ddd;
+    font-size: 27px; }
+
+.footer-copy {
+  font-weight: bold;
+  margin-top: 20px; }
 
 /* ---------------  Desktop First  -------------- */
 /* Large Devices, Wide Screen */

@@ -1,0 +1,19 @@
+.main-footer {
+	padding: 60px 0;
+	background-color: $mainColor;
+	text-align: center;
+	color: #999;
+}
+.footer-logo {
+	font-size: 22px;
+	line-height: 1.16;
+	span {
+		display: block;
+		color: #ddd;
+		font-size: 27px;
+	}
+}
+.footer-copy {
+	font-weight: bold;
+	margin-top: 20px;
+}
