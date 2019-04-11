@@ -208,7 +208,6 @@ input, textarea {
 .blog-section .buttoncase {
   display: grid;
   padding: 10px;
-  align: center;
   grid-column: 2 / 4; }
   .blog-section .buttoncase .button {
     justify-self: center; }
