@@ -19,11 +19,7 @@ function styles() {
 }
 
 function scripts() {
-	return gulp.src(['./src/js', './src/js']) //берём файлы на обработку
-				.pipe(concat('all.js')) //Объединение всех файлов в один all.js
-				.pipe(uglify({   //Минификация js
-					toplevel: true
-				}))
+	return gulp.src('./src/js/script.js') //берём файлы на обработку
 				.pipe(gulp.dest('./dist/js')); //сохраняем обработанные файлы
 }
 
