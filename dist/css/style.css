@@ -106,9 +106,15 @@ input, textarea {
       .header .header_content .header_buttons .button-right {
         justify-self: start; }
   .header .slideshow-wrap .mySlides {
-    display: none; }
+    max-width: 1200px;
+    min-width: 900px;
+    max-height: 400px;
+    min-height: 300px;
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+    position: relative; }
   .header .slideshow-wrap .slideshow-container {
-    max-width: 1000px;
     position: relative;
     margin: auto; }
     .header .slideshow-wrap .slideshow-container .prev, .header .slideshow-wrap .slideshow-container .next {
@@ -159,6 +165,12 @@ input, textarea {
     opacity: .4; }
   to {
     opacity: 1; } }
+    .header .slideshow-wrap .slideshow-container .caption-one {
+      background-image: url(../../images/5.jpg); }
+    .header .slideshow-wrap .slideshow-container .caption-two {
+      background-image: url(../../images/3.jpg); }
+    .header .slideshow-wrap .slideshow-container .caption-three {
+      background-image: url(../../images/2.jpg); }
   .header .slideshow-wrap .dot {
     cursor: pointer;
     height: 15px;
