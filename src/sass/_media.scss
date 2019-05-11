@@ -2,6 +2,18 @@
 
 /* Large Devices, Wide Screen */
 @media only screen and (max-width: 1200px) {
+	.header {
+		.slideshow-wrap {
+			.mySlides {
+				width: 600px;
+				height: 200px;
+			}
+			.slideshow-container {
+				width: 600px;
+				height: 200px;
+			}
+		}
+	}
 	.blog-section {
 		.buttoncase {
 			grid-column: 1 / 4;
@@ -78,6 +90,16 @@
 			padding: 40px 20px;
 			h1 {
 				font-size: 40px;
+			}
+		}
+		.slideshow-wrap {
+			.mySlides {
+				width: 300px;
+				height: 100px;
+			}
+			.slideshow-container {
+				width: 300px;
+				height: 100px;
 			}
 		}
 	}
